@@ -1,0 +1,45 @@
+1. Clone or download the repository
+git clone https://github.com/your-username/medical-symptom-checker.git
+cd medical-symptom-checker
+2. Install dependencies
+pip install -r requirements.txt
+3. Run the app
+python app.py
+
+On the first run, the app will automatically train the model from the included dataset and save model files inside the models/ folder.
+
+Datasets
+
+This repository includes:
+
+DiseaseAndSymptoms.csv → used for training the disease prediction model
+Disease precaution.csv → used to show basic precautions for the top predicted disease
+Notes
+The app is designed as an educational machine learning project.
+It is not a real medical diagnosis system.
+The model predictions depend on the quality and structure of the included dataset.
+Screenshot
+
+Add a screenshot of your running app inside:
+
+assets/screenshot.png
+
+Then show it here:
+
+![App Screenshot](assets/screenshot.png)
+Disclaimer
+
+This project is for educational purposes only.
+It is not a substitute for professional medical advice, diagnosis, or treatment.
+
+
+---
+
+## `models/.gitkeep`
+
+Create an empty file named:
+
+```text
+models/.gitkeep
+
+This keeps the models folder in GitHub even before the .pkl files are generated.
